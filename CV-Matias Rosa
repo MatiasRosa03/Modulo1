@@ -1,0 +1,151 @@
+%%%%%%%%%%%%%%%%%
+% CV - Estudiante de Ingeniería Industrial (UNCuyo)
+%%%%%%%%%%%%%%%%
+
+\documentclass[10pt,a4paper,withhyper]{altacv}
+
+\geometry{left=1.25cm,right=1.25cm,top=1.5cm,bottom=1.5cm,columnsep=1.2cm}
+
+\usepackage{paracol}
+
+\iftutex
+  \setmainfont{Roboto Slab}
+  \setsansfont{Lato}
+  \renewcommand{\familydefault}{\sfdefault}
+\else
+  \usepackage[rm]{roboto}
+  \usepackage[defaultsans]{lato}
+  \renewcommand{\familydefault}{\sfdefault}
+\fi
+
+% Colores Profesionales
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\definecolor{DarkPastelBlue}{HTML}{003366}
+\definecolor{PastelBlue}{HTML}{006699}
+\definecolor{GoldenEarth}{HTML}{E7D192}
+
+\colorlet{name}{black}
+\colorlet{tagline}{PastelBlue}
+\colorlet{heading}{DarkPastelBlue}
+\colorlet{headingrule}{GoldenEarth}
+\colorlet{subheading}{PastelBlue}
+\colorlet{accent}{PastelBlue}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+\renewcommand{\namefont}{\Huge\rmfamily\bfseries}
+\renewcommand{\personalinfofont}{\footnotesize}
+\renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
+\renewcommand{\cvsubsectionfont}{\large\bfseries}
+
+\begin{document}
+\name{Matias Rosa}
+\tagline{Estudiante de Ingeniería Industrial }
+
+\personalinfo{
+  \email{tmatirosa03@gmail.com}
+  \phone{+54 261 255 1335 }
+  \location{Mendoza, Argentina}
+  \linkedin{tu-perfil}
+  \github{MatiasRosa03}
+}
+
+\makecvheader
+
+\columnratio{0.6}
+
+\begin{paracol}{2}
+\cvsection{Experiencia}
+
+\cvevent{Pasantía en Optimización de Procesos}{Empresa Industrial / Bodega}{Marzo 2025 -- Presente}{Mendoza, Argentina}
+\begin{itemize}
+\item Apoyo en el relevamiento de tiempos y métodos en líneas de producción.
+\item Análisis de cuellos de botella mediante simulaciones y herramientas de mejora continua (Lean Manufacturing).
+\item Colaboración en la actualización de diagramas de flujo y procedimientos operativos.
+\end{itemize}
+
+\divider
+
+\cvevent{Ayudante de Cátedra (Física II / Termodinámica)}{Universidad Nacional de Cuyo}{Marzo 2024 -- Diciembre 2025}{Mendoza, Argentina}
+\begin{itemize}
+\item Asistencia en laboratorios prácticos sobre electromagnetismo y mecánica de fluidos.
+\item Resolución de problemas complejos frente a grupos de +30 estudiantes, incluyendo aplicaciones de las ecuaciones de Maxwell y efectos Hall.
+\item Apoyo en la preparación de material didáctico y corrección de ejercicios.
+\end{itemize}
+
+\cvsection{Proyectos}
+
+\cvevent{Simulación de Sistema Logístico}{Proyecto Académico}{2025}{}
+\begin{itemize}
+\item Desarrollo de un modelo de optimización para la distribución de carga utilizando Python y herramientas de investigación operativa.
+\end{itemize}
+
+\divider
+
+\cvevent{Estudio de Parámetros en Fluidos}{Proyecto de Investigación}{2025}{}
+\begin{itemize}
+\item Análisis dimensional y cálculo de números de Reynolds para la mejora de eficiencia en sistemas de bombeo industriales.
+\end{itemize}
+
+\cvsection{Un día en mi vida}
+
+\wheelchart{1.5cm}{0.5cm}{%
+  7/8em/accent!30/{Descanso y\\recuperación},
+  8/8em/accent!60/{Cursado y estudio\\en la UNCuyo},
+  3/8em/accent!40/{Proyectos personales y\\programación (Python)},
+  2/10em/accent/{Gaming táctico y\\lectura de narrativa},
+  4/6em/accent!20/{Gimnasio y tiempo\\con amigos}
+}
+
+\switchcolumn
+
+\cvsection{Filosofía}
+\begin{quote}
+"La eficiencia no es hacer más cosas, sino eliminar las que no agregan valor."
+\end{quote}
+
+\cvsection{Logros}
+
+\cvachievement{\faGraduationCap}{Promedio Académico}{Mantenido por encima de 8.50/10 en materias técnicas de ingeniería.}
+
+\divider
+
+\cvachievement{\faTrophy}{Finalista Hackathon Regional}{Mención especial por propuesta de optimización energética.}
+
+\cvsection{Fortalezas}
+
+\cvtag{Pensamiento Analítico}
+\cvtag{Resolución de Problemas}\\
+\cvtag{Trabajo en Equipo}
+\cvtag{Adaptabilidad}
+
+\divider\smallskip
+
+\cvtag{Python (Data Science)}
+\cvtag{Excel Avanzado / VBA}\\
+\cvtag{LaTeX}
+\cvtag{AutoCAD / SolidWorks}
+\cvtag{Gestión de Inventarios}
+
+\cvsection{Idiomas}
+
+\cvskill{Español}{5}
+\divider
+
+\cvskill{Inglés (B2 - Avanzado)}{4}
+\divider
+
+\cvsection{Educación}
+
+\cvevent{Ingeniería Industrial}{Univ. Nacional de Cuyo}{2021 -- Presente}{}
+Cursando el 5to año. Foco en Gestión de Operaciones y Calidad.
+
+\cvsection{Intereses}
+\cvtag{PC Gaming}
+\cvtag{Física Teórica}
+\cvtag{Hardware}
+
+\end{paracol}
+
+\end{document}
