@@ -13,15 +13,28 @@ Ejercicio 6: Creación de un archivo con metadatos en el entorno R
 
 # Modulo_1
 Introducción a los algoritmos
+
 Repaso de conceptos de Cálculo Numérico (Matlab / Octave)
+
 El lenguaje de programación R
+
 Creación de Notebook en IDEs (RMarkdown)
+
 Cheat sheets
+
 Estructura de Datos de R
+
 Ciclos do while, secuencias matrices, vectores, dataframes
+
 Importación de datasets (Kaggle)
+
 Gestión de Proyectos en GitHub
+
 Ejercicio 1: La penitencia de Taylor
+
+
 Ejercicio 2: Algoritmo de ordenación
+
 Ejercicio 3: Multiplicación Vectorial
+
 Ejercicio 4: Gráficos
